@@ -3,9 +3,12 @@
 <head>
 <title>Create an HTML Table</title>
 <style>table, th, td {
-    border: 1px solid black;
+    border: 5px solid black;
     border-collapse: collapse;
   }
+  th, td {
+  background-color: #ff0000;
+}
   </style>
 </head>
 <body>
@@ -53,5 +56,33 @@
         </tr>
     </tr>
 </table>
+<caption>Point Totals</caption>
+<table>
+    <thead>
+        <th>Greg</th>
+        <th>Bob</th>
+        <th>Steve</th>
+    </thead>
+    <tbody>
+        <td>12pts</td>
+        <td>12pts</td>
+        <td>12pts</td>
+    </tbody>
+    <tbody>
+        <td>11pts</td>
+        <td>9pts</td>
+        <td>10pts</td>
+    </tbody>
+    <tbody>
+        <td>8pts</td>
+        <td>10pts</td>
+        <td>13pts</td>
+    </tbody>
+    <tfoot>
+        <td> Total - 31pts</td>
+        <td> Total - 31pts</td>
+        <td> Total - 35pts</td>
+    </tfoot>
+</table>
 </body>
-</html>
+
