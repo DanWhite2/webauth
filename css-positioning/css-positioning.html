@@ -4,10 +4,31 @@
 <title>CSS Positioning</title>
 <style>
 div.a{position:fixed;}
+div.b{position: relative;}
+div.c{position:absolute;}
+div.d{left: 200px;
+    position:absolute;
+z-index:0;}
+div.e{left: 210px;
+    top:20px;
+    position:absolute;
+    z-index: 1;}
+div.f{left: 190px;
+    top:50px;
+    position:absolute;
+    z-index: -1;}
+div.L{cursor:crosshair}
+html{cursor:cell;}
 </style>
 </head>
 <body>
+    <div class="L">
 <div class="a"><img src="image2.jpg"></div>
-<div class="b"><img src="image3.png"></div>
+<div class="b"><img src="turtle.jpg"></div>
+<div class="c"><img src="screen.png"></div>
+<div class="d"><img src="face.png"></div>
+<div class="e"><img src="turtle2.jpg"></div>
+<div class="f"><img src="pin.png"></div>
+</div>
 </body>
 </html>
