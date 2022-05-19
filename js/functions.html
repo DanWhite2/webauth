@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS Functions</title>
+<script>
+    function myFunction() {
+        alert("Hello")}
+    myFunction()
+</script>
+<style>
+
+</style>
+</head>
+<body>
+    <p id="the"></p>
+
+<script>
+function myFunction(p1) {
+  return p1;
+}
+document.getElementById("the").innerHTML = myFunction(4);
+</script>
+<div style="display:flex;">
+<p>Sum &nbsp;<p id="when"></p></div>
+<script>
+    function myFunction(p1, p2) {
+      return p1+p2;
+    }
+    document.getElementById("when").innerHTML = myFunction(4,8);
+    </script>
+    
+    <div style="display:flex;">
+      <p>Difference &nbsp;<p id="zhen"></p></div>
+      <script>
+          function myFunction(p1, p2) {
+            return p1-p2;
+          }
+          document.getElementById("zhen").innerHTML = myFunction(4,8);
+          </script>
+
+<div style="display:flex;">
+  <p>Product &nbsp;<p id="fhen"></p></div>
+  <script>
+      function myFunction(p1, p2) {
+        return p1*p2;
+      }
+      document.getElementById("fhen").innerHTML = myFunction(4,8);
+      </script>
+
+<div style="display:flex;">
+  <p>Quotient &nbsp;<p id="dhen"></p></div>
+  <script>
+      function myFunction(p1, p2) {
+        return p1/p2;
+      }
+      document.getElementById("dhen").innerHTML = myFunction(4,8);
+      </script>
+
+<button type="button" onclick="alert('Hello')">Alert</button>
+<button type="button" onclick="alert('4')">Number</button>
+<button type="button" onclick="alert('4,8')">Math</button>
+</body>
+</html>
